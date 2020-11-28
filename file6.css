@@ -1,0 +1,40 @@
+.dropdown21 {
+    position: relative;
+    //border: 2px solid red;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  #dropbtn21 {
+    background-color: #672390;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  .drop-content21 {
+    position: absolute;
+    background-color: #eee;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    min-width: 160px;
+    display: none;
+  }
+  .drop-content21 a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px ;
+  }
+  .drop-content21 a:hover {
+    background-color: #999;
+    color: #f1f1f3;
+  }
+  .show {
+    display: block;
+  }
+  #div21 {
+    width: 100%;
+    border: 2px solid #343499;
+    height: 250px;
+    padding: 20px;
+    position: relative;
+  }
+  
