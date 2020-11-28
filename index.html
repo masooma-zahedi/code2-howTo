@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>practice js</title>
+    <script src='https://kit.fontawesome.com/07f98e99cb.js'></script>
+    <script src="file.js"></script>
+    <link rel="stylesheet" href="file.css">
+
+</head>
+<body>
+  <!--
+  <div class="topnav" id="topnav">
+    <a href="#" class="active">Home</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+    <a href="#" onclick="myFunction()" class="icon"><i class="fa fa-bars"></i></a>
+    <a href="#"></a>
+
+  </div>
+  <hr>
+
+  <h2>Search Menu</h2>
+<p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction2()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li><a href="#">PHP</a></li>
+      <li><a href="#">Python</a></li>
+      <li><a href="#">jQuery</a></li>
+      <li><a href="#">SQL</a></li>
+      <li><a href="#">Bootstrap</a></li>
+      <li><a href="#">Node.js</a></li>
+    </ul>
+  </div>
+  
+  <div class="right" style="background-color:#ddd;">
+    <h2>Page Content</h2>
+    <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+    <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+    <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+    <p>Some text..</p>
+  </div>
+</div><hr><br><br>
+
+<h1>project 3:</h1>
+<h2>Accordian</h2>
+<button onclick= "myFunction3()" class="accordion">section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">section3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<hr><br><br>
+
+
+<h1>Project 4</h1>
+<h2>Tabs</h2>
+
+<div class="tab">
+  <button class="tablink" onclick="openCity(event,'London')" >London</button>
+  <button class="tablink"onclick="openCity(event,'Paris')" >Paris</button>
+  <button class="tablink"onclick="openCity(event,'Tokyo')" >Tokyo</button>
+</div>
+
+<div class="tabcontent" id="London">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+<div class="tabcontent" id="Paris">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+<div class="tabcontent" id="Tokyo">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+<hr><br><br>
+
+
+<h1>Project 5</h1>
+<h2>Vertical Tabs</h2>
+
+<div id="div5">
+<div class="tab5">
+  <button class="tablinks5" onclick = "openCity5(event,'London5')" id="defaultOpen5">London</button>
+  <button class="tablinks5" onclick = "openCity5(event,'Paris5')">Padis</button>
+  <button class="tablinks5" onclick = "openCity5(event,'Tokyo5')">Tokyo</button>
+</div>
+
+<div id= "London5" class="tabcontent5">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris5" class="tabcontent5">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo5" class="tabcontent5">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+</div>
+<hr><br><br>
+
+<h1>project 6</h1>
+<h2>Tab Headers:</h2>
+
+<div class="tabcontent6" id="London">
+  <h1>London</h1>
+  <p>London is the capital city of England.</p>
+</div>
+<div  class="tabcontent6" id="Tokyo">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div class="tabcontent6" id="Paris">
+  <h1>Paris</h1>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="tabcontent6" id="Oslo" >
+  <h1>Oslo</h1>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+<div id ="div6">
+<button class="tablink6" onclick="openCity6('London',this,'red')" id="defaultOpen6">London</button>
+<button class="tablink6" onclick="openCity6('Tokyo',this,'blue')">Tokyo</button>
+<button class="tablink6" onclick="openCity6('Paris',this,'green')">Paris</button>
+<button class="tablink6" onclick="openCity6('Oslo',this,'orange')">Oslo</button>
+</div>
+<br><hr><br><br>
+-->
+<!------------------------------------------------------------->
+<h1>Project 7</h1>
+<h2>Full Page Tab</h2>
+
+<div id="div7">
+  <button class="tablink7" onclick="openPage7('Home',this,'#f59834')">Home</button>
+  <button class="tablink7" onclick="openPage7('News',this,'#98f534')" id="defaultOpen7">News</button>
+  <button class="tablink7" onclick="openPage7('Contact',this,'#9834f5')">Contact</button>
+  <button class="tablink7" onclick="openPage7('About',this,'#34b378')">About</button>
+</div>
+
+<div class="tabcontent7" id="Home">
+  <h2>Home</h2>
+  <p>Learn how to create full page tabs, that covers the entire browser window, with CSS and JavaScript.
+  </p>
+</div>
+
+<div class="tabcontent7" id="News">
+  <h2>News</h2>
+  <p>Learn how to create full page tabs, that covers the entire browser window, with CSS and JavaScript.
+  </p>
+</div>
+<div class="tabcontent7" id="Contact">
+  <h2>Contact</h2>
+  <p>Learn how to create full page tabs, that covers the entire browser window, with CSS and JavaScript.
+  </p>
+</div>
+
+<div class="tabcontent7" id="About">
+  <h2>About</h2>
+  <p>Learn how to create full page tabs, that covers the entire browser window, with CSS and JavaScript.
+  </p>
+</div>
+<br><hr><br><br>
+<h1>Project 8</h1>
+<h2>Topnav Responsive</h2>
+
+<div class="topnav8" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<br><hr><br><br>
+<div id="div9">
+  <h1>Project9</h1>
+  <h2>Slide Nacigation</h2>
+  <div class=" sidenav" id="mySidenav">
+    <h1>Project9</h1>
+    <h2>Slide Nacigation</h2>
+      <span onclick="closeNav()" class="closebtn" >&times;</span>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <span id="open" onclick="openNav()">&#9776; Open-Rigth</span>
+
+</div>
+<br><hr><br><br>
+
+<h1>Project 10</h1>
+<h3>Responsive Search Bar</h3>
+
+<div>
+  <div class="topnav10">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <div class="searchBar">
+      <form action="#">
+        <input type="text" placeholder="Search" name="search">
+        <button type="submit"><li class="fa fa-search"></li></button>
+      </form>
+    </div>
+  </div>
+</div>
+<br><hr><br><br>
+
+<h1>Project 11</h1>
+<h2>Fixed Sidebar</h2>
+<div class="div11">
+  <div class="sidebar11">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="main">
+    <h2>full sidebar</h2>
+    <p>This sidebar is of full height (100%) and always shown.</p>
+    <p>dry, or overly humid rooms impeding your dreams of becoming an at-home horticulturist? These factors—which are all too common for apartment dwellers—may have once hindered you from pursuing a life as a plant parent…until now. While many plants require paradise-like living arrangements with abundant light and constant attention, there are an array of options that can survive in less-than-perfect conditions. We tapped Baltimore-based plant stylist Hilton Carter, author of Wild Interiors, to recommend the best indoor apartment plants to buy online and how to care for them once they’re all yours</p>
+    <p>dry, or overly humid rooms impeding your dreams of becoming an at-home horticulturist? These factors—which are all too common for apartment dwellers—may have once hindered you from pursuing a life as a plant parent…until now. While many plants require paradise-like living arrangements with abundant light and constant attention, there are an array of options that can survive in less-than-perfect conditions. We tapped Baltimore-based plant stylist Hilton Carter, author of Wild Interiors, to recommend the best indoor apartment plants to buy online and how to care for them once they’re all yours
+
+    </p>
+  </div>
+</div>
+<!--------------------------------------------------------------->
+<br><hr><br><br>
+<h1>Project 12</h1>
+<h2>Off-Canvas Menu</h2>
+<div class="div12">
+  <div class="sidebar12" id="side12">
+    <a id="closebtn12" onclick="closeNav12()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="main12">
+    <h2>Sidenav Push Example</h2>
+    <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+    <span id="open12" onclick="openNav12()">&#9776; Open</span>
+  </div>
+</div>
+
+<!--------------------------------------------------------------->
+<br><hr><br><br>
+<h1>Project 13</h1>
+<h2>Hoverable Sidenav Buttons</h2>
+<div class="div13">
+  <div class="sideNav13">
+    <a href="#" id="About13">About</a>
+    <a href="#" id="Blog13">Blog</a>
+    <a href="#" id="Projects13">Projects</a>
+    <a href="#" id="Contact13">Contact</a>
+  </div>
+  <h1 id="hover13">Hoverable Sidenav Buttons</h1>
+</div>
+<br><hr><br><br>
+
+<!--------------------------------------------------------------->
+<h1>Project14</h1>
+<h2>Centered Menu Link</h2>
+<div class="div14">
+  <div class="navbar14">
+
+    <div class="centerH">
+      <a href="#" class="active">Home</a>
+    </div>
+
+    <div class="float-left">
+      <a href="#">News</a>
+      <a href="#">Content</a>
+    </div>
+
+    <div class="float-right">
+      <a href="#">Search</a>
+      <a href="#">About</a>
+    </div>
+
+  </div>
+</div>
+<br><hr><br><br>
+
+<!--------------------------------------------------------------->
+<h1 id="pro">Project 15</h1>
+<h2 id="ind">Responsive Navbar</h2>
+<div class="div15">
+  <div class="navBar15" id="mynav15">
+    <a href="javascript:void(0);"  class="icon" onclick="myFunction15()">&#9776;</a>
+    <a href="#" class="active15">Home</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+    <a href="#">Services</a>
+  </div>
+  <div class="main15">
+    <h2>Responsive Nav</h2>
+  </div>
+</div>
+<br><hr><br><br>
+
+<!--------------------------------------------------------------->
+              
+<h1 id="pro">Project16(It did not work for me)</h1>
+<h2 id="ind">Slide Down a Bar</h2>
+<br>
+
+<iframe src="http://127.0.0.1:5500/code3.practice/index3.html" frameborder="2px solid #992354" style="width: 95%; height: 300px; margin: 15px;">
+  </iframe>
+  <br><hr><br><br>
+
+  <!--------------------------------------------------------------->
+<h1 id="pro">Progect 17</h1> 
+<h2 id="ind">Shrink Navigation Menu on Scroll</h2> 
+<iframe src="http://127.0.0.1:5500/code4/index4.html#" frameborder="2px solid #239367" style="width: 90%; height: 600px; margin: auto;margin-left: 40px;"></iframe>
+
+<br><hr><br><br>
+
+<!--------------------------------------------------------------->
+<h1 id="pro">Project18</h1>
+<h2 id="ind">Sticky/Affix Navbar(But it did not worke)</h2>
+<iframe src="http://127.0.0.1:5500/code5/index5.html" frameborder="2px solid red" style="width: 90%; height: 350px; margin-left: 30px;"></iframe>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 19</h1>
+<h2 id="ind">Navbar on image</h2>
+
+<div class="bg-img19">
+  <div class="container19">
+    <div class="topnav19">
+      <a href="#" class="active">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 20</h1>
+<h2 id="ind">Hoverable Dropdown</h2>
+<p id="para">Move the mouse over the button to open the dropdown menu.</p>
+
+  <button class="dropbtn20" onmouseover="myFunction20()" onmouseout="back20()">Dropdown</button>
+  <div class="dropContent20">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link3</a>
+    <a href="#">Link4</a>
+  </div>
+
+  <br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 21</h1>
+<h2 id="ind">clickable Dropdown1</h2>
+
+<div id="div21">
+  <button id="dropbtn21" class="btn21" onclick="myFunction21()">click me</button>
+  <div class="drop-content21">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Edit</a>
+  </div>
+
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 22</h1>
+<h2 id="ind">cascading Dropdown Example</h2>
+<h1 id="pro">must do it OTHER time;</h1>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 23</h1>
+<h2 id="ind">Dropdown Menu inside a Navigation Bar</h2>
+<p id="pro">Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+<div class="div23">
+  <div class="navbar23">
+    <a href="#">Home</a>
+    <a href="#">News</a>
+    <div class="drop23">
+      <button id="dropbtn23">Dropdown <li class="fa fa-caret-down"></li>
+      </button>
+      <div class="drop-content23">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+  </div>
+  <h1 id="pro">This example demonstrates </h1>
+  <p id="para">Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 24</h1>
+<h2 id="ind">Dropdown Sidebar</h2>
+<h2 id="ind">unfortunately it didn't work;</h2>
+
+<div class="div24">
+  <div class="navbar24">
+    <a href="#">About</a>
+    <a href="#">Setvices</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+    <button class="dropbtn24">Dropdown
+        <li class="fa fa-caret-down"></li>
+    </button>
+    <div class="drop-content24">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+    <a href="#">Search</a>
+  </div>
+  <div class="main24">
+    <h1 id="pro">Sidebar Dropdown</h1>
+    <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
+    <p>This sidebar is of full height (100%) and always shown.</p>
+    <p>Some random text..</p>
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+
+<h1 id="pro">project25</h1>
+<h2 id="ind">subnav</h2>
+
+<div class="navbar25">
+  <a href="#">Home</a>
+  <div class="subnav25">
+    <button class="subnavbtn25">About <li class="fa fa-caret-down"></li> </button>
+    <div class="subnav-content25">
+      <a href="#">Company</a>
+      <a href="#">Team</a>
+      <a href="#">Careers</a>
+    </div>
+  </div>
+  <div class="subnav25">
+    <button class="subnavbtn25">Services  <li class="fa fa-caret-down"></li></button>
+    <div class="subnav-content25">
+      <a href="#">Bring</a>
+      <a href="#">Deliver</a>
+      <a href="#">Package</a>
+      <a href="#">Express</a>
+    </div>
+  </div>
+  <div class="subnav25">
+    <button class="subnavbtn25">Partners  <li class="fa fa-caret-down"></li></button>
+    <div class="subnav-content25">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  <a href="#">Contact</a>
+</div>
+
+<h2 id="ind">Subnav/dropdown menu inside a Navigation Bar</h2>
+<p id="para">Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+
+<h1 id="pro">project26</h1>
+<h2 id="ind">DropUp</h2>
+<h2 id="ind">Hoverable Dropup</h2>
+<p id="para">Example text...</p>
+<p id="para">Example text...</p>
+<p id="para">Move the mouse over the button to open the dropup menu</p>
+<div class="dropUp26">
+  <button class="btn26">DropUp</button>
+  <div class="dropContent26">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+
+<h1 id="pro">project27</h1>
+<h2 id="ind">Mega Menu</h2>
+
+<div class="navbar27">
+  <a href="#">Home</a>
+  <a href="#">News</a>
+  <div class="drop27">
+    <button class="dropbtn27">Dropdown <li class="fa fa-caret-down"></li> </button>
+    <div class="drop-content27">
+      <div class="header27">Mego Menu</div>
+      <div class="row27">
+        <div class="colmn27">
+          <h3>Category 1</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+        </div>
+        <div class="colmn27">
+          <h3>Category 2</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+        </div>
+        <div class="colmn27">
+          <h3>Category3</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main27" style="padding:20px;">
+  <h3>Responsive Mega Menu (Full-width dropdown in navbar)</h3>
+  <p>Hover over the "Dropdown" link to see the mega menu.</p>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+  <br><hr><br><br>
+
+
+<!------------------------------------------------------------->
+<h1 id="pro">project 28</h1>
+<h2 id="ind">Vertical Mobile Navbar</h2>
+
+<div  style="width: 450px;height: 500px;background-color: #555;margin:auto;">
+  <div class="topnav28">
+    <a href="#Home" class="active28">Home</a>
+    <a href="#icon" class=" icon28" onclick="myFunction28()"><Li class="fa fa-bars"></Li> </a>
+    <div class="myLink28" id="link28">
+      <a href="#News">News</a>
+      <a href="#Contact">Contact</a>
+      <a href="#About">About</a>
+    </div>
+  </div>
+
+   <div class="main28" style="padding:16px;color:#f3f3f3;">
+      <h2>Vertical Mobile Navbar</h2>
+      <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+      <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+  </div>
+</div>
+<br><hr><br><br>
+
+
+<!------------------------------------------------------------->
+
+<h1 id="pro">Project 29</h1>
+<h2 id="para">Horizotnal Mobile Navbar</h2>
+
+<div id="mobile29" style="max-width: 480px;height: 500px;background-color: #555;margin: auto;">
+  <div class="navbar29">
+    <a href="#Logo"class="active">Logo</a>
+    <div id="mylink29">
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <a href="#java" onclick="myFunction29()" class="icon29"> <li class="fa fa-bars"></li> </a>
+  </div>
+  <div class="main29">
+    <h2>Horizontal Mobile Navbar</h2>
+    <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+    <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+    <p>Note that this example should'nt be used if you have a lot of links, as they will "break" the navbar when there's too many (especially on very small screens).</p>
+  </div>
+</div>
+<br><hr><br><br>
+
+
+<!------------------------------------------------------------->
+<h1 id="Pro">Project 30</h1>
+<h2 id="ind">Fullscreen Overlay Nav Example</h2>
+<div class="main30">
+  <div class="overLay30" id="over30">
+    <a href="#icon" class="close30" onclick="myClose30()"> &times;</a>
+    <div class="nav-content30">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#Client">Client</a>
+      <a href="Contact">Contact</a>
+    </div>
+  </div>
+  <p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+  <p >In this example, the navigation menu will slide in, from left to right:</p>
+  <span class="open30" onclick="myOpenNav30()" > &#9776; Open</span>
+  
+</div>
+<br><hr><br><br>
+
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 31</h1>
+<h2 id="ind">Fullscreen Overlay Nav Example</h2>
+<div class="main31">
+  <div class="navbar31" id="nav31">
+    <a href="#close" onclick="myclose31()" class="icon31" >&times;</a>
+    <div class="nav-content31">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#Client">Client</a>
+      <a href="#Contact">Contact</a>
+    </div>
+  </div>
+    <p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+    <p>In this example, the navigation menu will slide downwards from the top:</p>
+    <span class="Open31" onclick="openNav31()">&#9776 Open</span>
+</div>
+<br><hr><br><br>
+
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 32</h1>
+<h2 id="ind">Collapsed Sidebar</h2>
+<div class="main32">
+  <div class="navbar32" id="mynav32">
+    <a href="#close" onclick="close32()" class="close32">&times;</a>
+    <div class="nav-content32">
+      <a href="#home">Home</a>
+      <a href="#ser">Services</a>
+      <a href="#client">Clients</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="m-main32" id="main-co">
+    <p id="para32">Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
+    <button class="open32" onclick="myOpen32()"> &#9776 Open </button>
+  </div>
+
+</div>
+<br><hr><br><br>
+
+
+<!------------------------------------------------------------->
+<h1 id="pro">project 33</h1>
+<h2 id="ind">Pagination</h2>
+<p id="para">Responsive pagination with hover effects:</p>
+<div class="pagination">
+  <a href="#@">&laquo;</a>
+  <a href="#1">1</a>
+  <a href="#2" class="active">2</a>
+  <a href="#3">3</a>
+  <a href="#4">4</a>
+  <a href="#5">5</a>
+  <a href="#6">6</a>
+  <a href="#7">7</a>
+  <a href="#&">&raquo;</a>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 34</h1>
+<h2 id="ind">Breadcrumb Pagination</h2>
+<ul class="bread">
+  <li><a href="#@">Home</a></li>
+  <li><a href="#@">Pictures</a></li>
+  <li><a href="#@">Summer 15</a></li>
+  <li>Italy</li>
+</ul>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project35</h1>
+<h2 id="ind">Image Modal</h2>
+<h2 id="ind">(it dose not work)</h2>
+
+<div class="main35">
+<p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
+<p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
+<img src="img\flower2.jpeg" alt="" class="main-img35" onclick="openModal35()">
+
+<div class="modal35">
+  <span class="close35">&times;</span>
+  <img src="img\flower2.jpeg" alt="flower" class="img-content35" id="img35">
+  <div id="caption35"></div>
+</div>
+  
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 36</h1>
+<h2 id="ind">Responsive Image Grid</h2>
+<div class="header36">
+  <p id="para">Resize the browser window to see the responsive effect.</p>
+</div>
+<div class="row36">
+  <div class="column36">
+    <img src="\img\manarola.jpg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="/img/aaaaaa111.jpg" style="width:100%;" alt="">
+    <img src="/img\bird.jpeg" style="width:100%;" alt="">
+    <img src="\img\bridge.jpg" style="width:100%;" alt="">
+    <img src="\img\cumulus-cloud.jpeg" style="width:100%;" alt="">
+    <img src="\img\flower2.jpeg" style="width:100%;" alt="">
+    <img src="\img\happy-smile.webp" style="width:100%;" alt="">
+    <img src="\img\Heart.png" style="width:100%;" alt="">
+    <img src="\img\cumulus-cloud.jpeg" style="width:100%;" alt="">
+  </div>
+  <div class="column36">
+    <img src="\img\image5.jpg" style="width:100%;" alt="">
+    <img src="\img\image6.jpg" style="width:100%;" alt="">
+    <img src="\img\lion.jpg" style="width:100%;" alt="">
+    <img src="\img\manarola.jpg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\pattern1.jpg" style="width:100%;" alt="">
+    <img src="\img\pattern3.jpg" style="width:100%;" alt="">
+    <img src="\img\bridge.jpg" style="width:100%;" alt="">
+    <img src="\img\header.jpg"style="width:100%;" alt="">
+  </div>
+  <div class="column36">
+    <img src="\img\pexels-photo-736230.jpeg" style="width:100%;" alt="">
+    <img src="\img\sadFace.png" style="width:100%;" alt="">
+    <img src="\img\search-icon-magnifier-icon-vector-20716055.jpg" style="width:100%;" alt="">
+    <img src="\img\bridge.jpg" style="width:100%;" alt="">
+    <img src="\img\happyFace.png" style="width:100%;" alt="">
+    <img src="\img\Heart.png" style="width:100%;" alt="">
+    <img src="\img\lion.jpg" style="width:100%;" alt="">
+  </div>
+  <div class="column36">
+    <img src="code2-howTo\img\pattern3.jpg" style="width:100%;" alt="">
+    <img src="\img\cumulus-cloud.jpeg" style="width:100%;" alt="">
+    <img src="\img\header.jpg"style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\image5.jpg" style="width:100%;" alt="">
+    <img src="\img\sadFace.png" style="width:100%;" alt="">
+    <img src="\img\manarola.jpg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\pattern3.jpg" style="width:100%;" alt="">
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 37</h1>
+<h2 id="ind">Image Grid</h2>
+<p id="para">Click on the buttons to change the grid view.</p>
+<h2 id="ind">(It did not work)</h2>
+<div class="header37" id="myheader37">
+  <button class="btn37" onclick="one()">1</button>
+  <button class="btn37 active37" onclick="two()">2</button>
+  <button class="btn37" onclick="four()">4</button>
+</div>
+
+<div class="row37">
+  <div class="column37">
+    <img src="\img\manarola.jpg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="/img/aaaaaa111.jpg" style="width:100%;" alt="">
+    <img src="/img\bird.jpeg" style="width:100%;" alt="">
+    <img src="\img\bridge.jpg" style="width:100%;" alt="">
+    <img src="\img\cumulus-cloud.jpeg" style="width:100%;" alt="">
+    <img src="\img\flower2.jpeg" style="width:100%;" alt="">
+    <img src="\img\happy-smile.webp" style="width:100%;" alt="">
+    <img src="\img\Heart.png" style="width:100%;" alt="">
+    <img src="\img\cumulus-cloud.jpeg" style="width:100%;" alt="">
+  </div>
+  <div class="column37">
+    <img src="\img\image5.jpg" style="width:100%;" alt="">
+    <img src="\img\image6.jpg" style="width:100%;" alt="">
+    <img src="\img\lion.jpg" style="width:100%;" alt="">
+    <img src="\img\manarola.jpg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\pattern1.jpg" style="width:100%;" alt="">
+    <img src="\img\pattern3.jpg" style="width:100%;" alt="">
+    <img src="\img\bridge.jpg" style="width:100%;" alt="">
+    <img src="\img\header.jpg"style="width:100%;" alt="">
+  </div>
+  <div class="column37">
+    <img src="\img\pexels-photo-736230.jpeg" style="width:100%;" alt="">
+    <img src="\img\sadFace.png" style="width:100%;" alt="">
+    <img src="\img\search-icon-magnifier-icon-vector-20716055.jpg" style="width:100%;" alt="">
+    <img src="\img\bridge.jpg" style="width:100%;" alt="">
+    <img src="\img\happyFace.png" style="width:100%;" alt="">
+    <img src="\img\Heart.png" style="width:100%;" alt="">
+    <img src="\img\lion.jpg" style="width:100%;" alt="">
+  </div>
+  <div class="column37">
+    <img src="code2-howTo\img\pattern3.jpg" style="width:100%;" alt="">
+    <img src="\img\cumulus-cloud.jpeg" style="width:100%;" alt="">
+    <img src="\img\header.jpg"style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\image5.jpg" style="width:100%;" alt="">
+    <img src="\img\sadFace.png" style="width:100%;" alt="">
+    <img src="\img\manarola.jpg" style="width:100%;" alt="">
+    <img src="\img\mountain.jpeg" style="width:100%;" alt="">
+    <img src="\img\pattern3.jpg" style="width:100%;" alt="">
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 38</h1>
+<h2 id="ind">Tabbed Image Gallery</h2>
+<p id="para">Click on the images below:</p>
+
+<div class="row">
+
+  <div class="column38">
+    <img src="\img\flower2.jpeg" alt="flower" style="width: 100%;" onclick="myFunction38(this)">
+  </div>
+
+  <div class="column38">
+    <img src="\img\bird.jpeg" alt="bird" style="width: 100%;" onclick="myFunction38(this)">
+  </div>
+
+  <div class="column38">
+    <img src="\img\lion.jpg" alt="lion" style="width: 100%;" onclick="myFunction38(this)">
+  </div>
+
+  <div class="column38">
+    <img src="\img\mountain.jpeg" alt="mountain" style="width: 100%;" onclick="myFunction38(this)">
+  </div>
+</div>
+<div class="container38">
+  <span onclick="this.parentElement.style.display = 'none'" class="closebtn38">&times;</span>
+  <img style="width: 100%;" id="expandedImg">
+  <div id="imgtext"></div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 39</h1>
+<h2 id="ind">Images</h2>
+<div class="main-container">
+
+  <div class="container39A">
+    <img src="\img\bird.jpeg" alt="bird" class="bird39">
+    <div class="overlay39A">
+      <div class="content39A">beautiful bird</div>
+    </div>
+  </div>
+
+  <div class="container39B">
+    <img src="\img\lion.jpg" alt="lion" class="lion39">
+    <div class="overlay39B">
+      <div class="cont39B"></div>
+      <div class="content39B">Brave lion</div>
+    </div>
+  </div>
+
+  <div class="container39C">
+    <img src="\img\flower2.jpeg" alt="flower" class="flower39">
+    <div class="overlay39C">
+      <div class="content39C">Flower</div>
+    </div>
+  </div>
+
+  <div class="container39D">
+    <img src="\img\mountain.jpeg" alt="mountain" class="mountain39">
+    <div class="overlay39D">
+      <div class="content39D">Mountain</div>
+    </div>
+  </div>
+
+  <div class="container39F">
+    <img src="\img\Heart.png" alt="heart" class="heart39">
+    <div class="overlay39F">
+      <div class="cont39F"></div>
+      <div class="content39F">Heart</div>
+    </div>
+  </div>
+
+  <div class="container39G">
+    <img src="\img\bridge.jpg" alt="bridge" class="bridge39">
+    <div class="overlay39G">
+      <a href="#icon" class="icon39">
+        <i class="fa fa-user"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="container39H">
+    <img src="\img\image5.jpg" alt="rabit" class="rabit39">
+    <div class="content39H">
+      <h2 class="ind">Heading</h2>
+      <p class="para">Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+    </div>
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<div class="container40">
+  <h1 id="pro" class="pro40">Project 40</h1>
+  <h2 id="ind" class="pro40">Full page Image</h2>
+  <div class="bg40"></div>
+  <p id="para" class="pro40">Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project41</h1>
+<h2 id="ind">Form on hero image</h2>
+<div class="container41">
+  <div class="bg-img40"></div>
+
+  <form action="#41" class="form41">
+    <h2 class="login41">Login</h2>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" placeholder="Enter Email"><br>
+    <label for="password">Password</label><br>
+    <input type="password" name="psw" placeholder="Enter Password"><br>
+    <div class="con41">
+      <input type="submit" class="btn41" value="SUBMIT">
+    </div>
+  </form>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project42</h1>
+<h2 id="ind">Hero Img</h2>
+  <div class="hero-img42">
+    <div class="hero-text42">
+      <h1> I am Masooma</h1>
+      <p>And I am a web designer</p>
+      <button class="btn42">Hire Me</button>
+    </div>
+  </div>
+  <br><hr><br><br>
+
+  <!------------------------------------------------------------->
+  <h1 id="pro">Project43</h1>
+  <h2 id="ind">Hero Img Blur</h2>
+  <div class="container43">
+    <div class="hero-img43"></div>
+      <div class="hero-text43">
+        <h1> I am Masooma</h1>
+        <p>And I am a web designer</p>
+        <button class="btn43">Hire Me</button>
+      </div>
+    
+  </div>
+  <br><hr><br><br>
+
+  <!------------------------------------------------------------->
+<h1 id="pro">Project44</h1>
+<h2 id="ind">Change Background on Scroll</h2>
+<div class="container44">
+  <div class="bg-img44 img44-1"></div>
+  <div class="bg-img44 img44-2"></div>
+  <div class="bg-img44 img44-3"></div>
+  <div class="bg-img44 img44-4"></div>
+  <div class="bg-img44 img44-5"></div>
+  <div class="bg-img44 img44-6"></div>
+  <div class="bg-img44 img44-7"></div>
+  <div class="bg-text44">TEXT</div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project45</h1>
+<h2 id="ind">Thumbnail</h2>
+<a href="\img\bird.jpeg" class="thumb45" target="_blank">
+  <img src="\img\bird.jpeg" alt="bird" class="tumbnail45">
+</a>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 46</h1>
+<h2 id="ind">"Meet The Team" Page</h2>
+<div class="row46">
+  <div class="column46">
+    <img src="./img/rabit.jpg" alt="zahra" style="width: 100%;">
+    <div class="container46">
+      <h2>Rabit</h2>
+      <p>The Animal</p>
+      <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+      <p>beauty@gmail.com</p>
+      <p><button class="btn46">contact</button></p>
+    </div>
+  </div>
+  <div class="column46">
+    <img src="./img/FF.jpg" alt="fatima" style="width: 100%;">
+    <div class="container46">
+      <h2>Fatima</h2>
+      <p>The Family</p>
+      <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+      <p>beauty@gmail.com</p>
+      <p><button class="btn46">contact</button></p>
+    </div>
+  </div>
+  <div class="column46">
+    <img src="./img/F&z.jpg" alt="fatima&zahra" style="width: 100%;">
+    <div class="container46">
+      <h2>Fatima & Zahra</h2>
+      <p>The Family</p>
+      <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+      <p>beauty@gmail.com</p>
+      <p><button class="btn46">contact</button></p>
+    </div>
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 47</h1>
+<h2 id="ind">Sticky Image</h2>
+<div class="container47">
+  <div class="img47-cont">
+    <img src="./img\beach.jpg" alt="beach" class="img47">
+  </div>
+  <div class="content47">
+    <h2>Sticky Image</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 48</h1>
+<h2 id="ind">Flip(mirror) an Image</h2>
+<img src="./img\2birds.jpg" alt="2birds" class="img48" width="300px;">
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 49 A</h1>
+<h2 id="ind">3D Flip Image with Text</h2>
+
+<div class="flip-boxA">
+  <div class="flip-box-innerA">
+    <div class="flip-box-frontA">
+      <img src=".\img\bird.jpeg" alt="birds" width="300px" height="300px">
+    </div>
+    <div class="flip-box-backA">
+      <h2>bird</h2>
+      <p style="text-align: center;">what a beauty bird</p>
+    </div>
+  </div>
+</div>
+<br><hr><br><br>
+
+<!------------------------------------------------------------->
+<h1 id="pro">Project 49 B</h1>
+<h2 id="ind">Shake Image</h2>
+<img src="./img\stars.jpg" alt="stars" class="img49">
+<br><hr><br><br>
+
+  <!------------------------------------------------------------->
+  <h1 id="pro">Project 50</h1>
+  <h2 id="ind">Portfolio Gallary</h2>
+  <div class="main50">
+    <header class="header50">
+      <h1>MYLOGO.COM</h1>
+      <hr id="hr50">
+      <h2>portfolio</h2>
+      <p>Resize the browser window to see the responsive effect.</p>
+    </header>
+    <div class="row50">
+      <div class="column">
+        <div class="content50">
+          <img src=".\img\plant.jpg" alt="plant" class="img50" width="600px" >
+          <h2>My Work</h2>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content50">
+          <img src=".\img\manarola.jpg" alt="manarola" class="img50" width="600px">
+          <h2>My Work</h2>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content50">
+          <img src=".\img\flower2.jpeg" alt="flower" class="img50" width="600px" >
+          <h2>My Work</h2>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content50">
+          <img src=".\img\chick.jpg" alt="chicken" class="img50" width="600px" >
+          <h2>My Work</h2>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+    </div>
+    <div class="column50A">
+      <div class="content50A"> 
+        <img src=".\img\lion.jpg" alt="lion" class="img50A" width="600px" height="400px">
+        <h2>Some Other Work</h2>
+        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      </div>
+    </div>
+  </div>
+  <br><hr><br><br>
+
+  <!------------------------------------------------------------->
+<h1 id="pro">Project 51</h1>
+<h2 id="ind"> Sticky Text</h2>
+<div class="main51">
+  <div class="content51">
+    <div class="con51">
+    <h2>restaurant</h2>
+    <p style="text-align: center;">the best pace for enjoy it</p>
+   </div>
+  </div>
+</div>
+<p>hi it is me</p>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
